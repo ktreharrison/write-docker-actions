@@ -2,11 +2,11 @@ repo_name: ktreharrison/write-docker-actions
 report_id: c8f5b34d9ebbf15e6ef42e886224f799
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:26:32+00:00'
+timestamp: '2024-02-29T18:01:41+00:00'
 requested_by: ktreharrison
 provider: github
 branch: main
-detected_tools_count: 10
+detected_tools_count: 8
 tools:
 - name: Golang
   description: An open source programming language that makes it easy to build simple,
@@ -48,18 +48,6 @@ tools:
   detection_source: ".github/actions/issue-maker/Dockerfile"
   last_updated_by: Ken Harrison
   last_updated_on: 2022-01-17 14:37:24.000000000 Z
-- name: pgvector
-  description: Open-source vector similarity search for Postgres
-  website_url: https://github.com/pgvector/pgvector/
-  open_source: false
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Database Tools
-  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
-  detection_source_url: https://github.com/ktreharrison/write-docker-actions/blob/main/.github/actions/cat-facts/requirements.txt
-  detection_source: ".github/actions/cat-facts/requirements.txt"
-  last_updated_by: Ken Harrison
-  last_updated_on: 2022-01-17 14:29:32.000000000 Z
 - name: Docker
   description: Enterprise Container Platform for High-Velocity Innovation.
   website_url: https://www.docker.com/
@@ -103,18 +91,6 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source_url: https://github.com/ktreharrison/write-docker-actions/blob/main/.github/actions/cat-facts/requirements.txt
-  detection_source: ".github/actions/cat-facts/requirements.txt"
-  last_updated_by: Ken Harrison
-  last_updated_on: 2022-01-17 14:29:32.000000000 Z
-- name: LangChain
-  description: Build AI apps with LLMs through composability
-  website_url: https://github.com/hwchase17/langchain
-  open_source: true
-  hosted_saas: false
-  category: Communications
-  sub_category: Large Language Model Tools
-  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
   detection_source_url: https://github.com/ktreharrison/write-docker-actions/blob/main/.github/actions/cat-facts/requirements.txt
   detection_source: ".github/actions/cat-facts/requirements.txt"
   last_updated_by: Ken Harrison

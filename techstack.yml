@@ -2,7 +2,7 @@ repo_name: ktreharrison/write-docker-actions
 report_id: c8f5b34d9ebbf15e6ef42e886224f799
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-11T12:13:42+00:00'
+
 requested_by: ktreharrison
 provider: github
 branch: main
